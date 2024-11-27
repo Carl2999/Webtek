@@ -37,16 +37,13 @@ h3{
     text-decoration: none; /* Fjern understregning */
 }
 
-.Child1{
-    display: flex;
-}
 
 .Child2{
     background-color:antiquewhite; /* Baggrundsfarve */
     color: rgb(150, 170, 115); /* Tekstfarve */
     padding: 20px; /* Indvendig afstand */
     margin: 10px; /* Margin mellem felterne */
-    flex: 1 1 30%; /* Flex-effekt for at få felterne til at fylde pladsen */
+    flex: 1 1 100%; /* Flex-effekt for at få felterne til at fylde pladsen */
     text-align: center; /* Centrer tekst */
     border-radius: 10px; /* Runde hjørner */
     text-decoration: none; /* Fjern understregning */
