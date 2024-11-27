@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: darkolivegreen;
+}
+
+h2{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+h3{
+    font-size: 40px;
+    color: antiquewhite;
+    margin-bottom: 0px;
+}
+
+.Mother{
+    background-color: rgb(150, 170, 115);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px; /* Indvendig afstand */
+    margin: 10px; /* Margin mellem felterne */
+    flex: 1 1 30%; /* Flex-effekt for at få felterne til at fylde pladsen */
+    border-radius: 10px; /* Runde hjørner */
+    text-decoration: none; /* Fjern understregning */
+}
+
+
+.Child2{
+    background-color:antiquewhite; /* Baggrundsfarve */
+    color: rgb(150, 170, 115); /* Tekstfarve */
+    padding: 20px; /* Indvendig afstand */
+    margin: 10px; /* Margin mellem felterne */
+    flex: 1 1 100%; /* Flex-effekt for at få felterne til at fylde pladsen */
+    text-align: center; /* Centrer tekst */
+    border-radius: 10px; /* Runde hjørner */
+    text-decoration: none; /* Fjern understregning */
+    transition: background-color 0.3s; /* Overgangseffekt på hover */
+}
+
+p{
+    padding-top: 10px;
+    margin-top: 0px;
+}
+
+img{
+    border-radius: 10px;
+}
