@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+
+.Mother{
+    padding: 20px; /* Indvendig afstand */
+    margin: 10px; /* Margin mellem felterne */
+    flex: 1 1 30%; /* Flex-effekt for at få felterne til at fylde pladsen */
+    border-radius: 10px; /* Runde hjørner */
+    text-decoration: none; /* Fjern understregning */
+    display: flex;
+}
+
+.Child{
+    background-color: aquamarine;
+    padding: 20px; /* Indvendig afstand */
+    margin: 10px; /* Margin mellem felterne */
+    flex: 1 1 30%; /* Flex-effekt for at få felterne til at fylde pladsen */
+    border-radius: 10px; /* Runde hjørner */
+    text-decoration: none; /* Fjern understregning */
+    transition: background-color 0.3s; /* Overgangseffekt på hover */
+}
+
+.Knap-App:hover{
+    background-color: blueviolet;
+}
+
+.Knap-App{
+    background-color: rgb(240, 223, 173); /* Baggrundsfarve */
+    color: rgb(224, 119, 125); /* Tekstfarve */
+    padding: 20px; /* Indvendig afstand */
+    margin: 0px; /* Margin mellem felterne */
+    flex: 1 1 100%; /* Flex-effekt for at få felterne til at fylde pladsen */
+    height: 100%;
+    width: 100%;
+    text-align: center; /* Centrer tekst */
+    border-radius: 10px; /* Runde hjørner */
+    text-decoration: none; /* Fjern understregning */
+    transition: background-color 0.3s; /* Overgangseffekt på hover */
+}
