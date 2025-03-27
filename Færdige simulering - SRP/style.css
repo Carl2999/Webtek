@@ -1,0 +1,23 @@
+
+.Mother{
+  padding: 10px; /* Indvendig afstand */
+  margin: 10px; /* Margin mellem felterne */
+  flex: 1 1 30%; /* Flex-effekt for at få felterne til at fylde pladsen */
+  border-radius: 10px; /* Runde hjørner */
+  text-decoration: none; /* Fjern understregning */
+}
+
+button {
+    height: 75px;
+    width: 125px;
+    margin: 5px;
+    border: solid 2px;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    color: blue;
+  }
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  
